@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Buku</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .produk {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .buku {
+            background-color: white;
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .buku img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .harga {
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4a6fa5;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #365d8d;
+        }
+
+        footer {
+            margin-top: 30px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Toko Buku Kita</h1>
+        <p>Temukan buku favoritmu di sini!</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Buku</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <h2>Daftar Buku</h2>
+
+        <div class="produk">
+
+            <div class="buku">
+                <img src="https://via.placeholder.com/150x200" alt="Buku 1">
+                <h3>Belajar HTML</h3>
+                <p class="harga">Rp50.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+            <div class="buku">
+                <img src="https://via.placeholder.com/150x200" alt="Buku 2">
+                <h3>Belajar CSS</h3>
+                <p class="harga">Rp45.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+            <div class="buku">
+                <img src="https://via.placeholder.com/150x200" alt="Buku 3">
+                <h3>Belajar PHP</h3>
+                <p class="harga">Rp60.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+            <div class="buku">
+                <img src="https://via.placeholder.com/150x200" alt="Buku 4">
+                <h3>Belajar JavaScript</h3>
+                <p class="harga">Rp55.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Toko Buku Kita</p>
+    </footer>
+
+</body>
+</html>
